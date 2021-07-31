@@ -1,0 +1,10 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+	"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	
+<beans>
+	<bean id="obj" class="pp.Dept" scope="singleton">
+		<property name="deptId" value="1"></property>
+		<property name="deptName" value="INFO"></property>
+		<property name="deptDesc" value="Computer science department"></property>
+	</bean>
+</beans>
